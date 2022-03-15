@@ -1,0 +1,118 @@
+p {
+  margin-bottom: 0;
+}
+p.normal {
+  font-size: 14px;
+  line-height: 16px;
+  color: #3c4257;
+}
+p.label {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  color: #3c4257;
+}
+p.label.forgot {
+  color: #009ede;
+}
+p.stay {
+  margin-bottom: 28px;
+}
+.link {
+  font-size: 14px;
+  line-height: 16px;
+  color: #009ede;
+  text-decoration: none;
+}
+.title {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 600;
+  color: #3c4257;
+  margin-bottom: 16px;
+}
+.input {
+  width: 100%;
+  padding: 11.5px 12px 11.5px 16px;
+  color: #3c4257;
+  border: 1px solid #d9dce1;
+  border-radius: 5px;
+  margin-top: 12px;
+  margin-bottom: 32px;
+}
+.login {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  background: #f7fafc;
+}
+.top-section {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* .center-content {
+  border: 1px solid black;
+} */
+.center-content .logo {
+  margin-bottom: 34px;
+}
+.main-box {
+  width: 540px;
+  padding: 48px 68px 72px;
+  background: #fff;
+  box-shadow: 0px 15px 35px 0px #3c425714, 0px 5px 15px 0px #0000001f;
+  border-radius: 4px;
+}
+.password-wrapper {
+  position: relative;
+}
+.password-wrapper .eye {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-125%);
+  right: 1rem;
+  cursor: pointer;
+}
+.password-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.stay-row {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  column-gap: 6px;
+  margin-bottom: 28px;
+}
+.stay-row p {
+  margin-bottom: 0;
+}
+.continue-btn {
+  width: 100%;
+  padding: 14px 0;
+  background: #009ede;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+.no-account {
+  margin-top: 16px;
+}
+.footer {
+  width: 100%;
+  padding: 50px;
+  display: flex;
+  column-gap: 7px;
+  justify-content: flex-end;
+  justify-self: flex-end;
+}
+.footer p {
+  font-size: 14px;
+  font-weight: 500;
+  color: #3c4257;
+}
