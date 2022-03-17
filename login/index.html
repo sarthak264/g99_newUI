@@ -15,27 +15,39 @@
 </head>
 
 <body>
-    <main class="login">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap"
+        rel="stylesheet">
+    <main class="login-page">
+        <img src="../images/Geometric patterns.png" class="login-geometric-bg">
         <div class="top-section">
             <div class="center-content">
-                <img src="../images/g99 full logo.svg" class="logo">
+                <div class="logo-row">
+                    <img src="../images/g99 full logo.svg" class="logo">
+                    <h2 class="login-title">Sign in to your account</h2>
+                </div>
                 <div class="main-box">
-                    <h2 class="title">Sign in to your account</h2>
-                    <p class="label">Email</p>
-                    <input type="text" class="input">
-                    <div class="password-row">
-                        <p class="label">Password</p>
-                        <p class="label forgot">Forgot your password?</p>
+                    <h2 class="login-title">Sign in to your account</h2>
+                    <div class="form-group">
+                        <label class="login-label" for="login-email">Email</label>
+                        <input type="text" class="login-email-input" id="login-email">
                     </div>
-                    <div class="password-wrapper">
-                        <input type="password" name="password" class="input" id="password">
-                        <img src="../images/eye.svg" class="eye">
+                    <div class="form-group">
+                        <div class="password-row">
+                            <label class="login-label" for="login-password">Password</label>
+                            <p class="login-label forgot">Forgot your password?</p>
+                        </div>
+                        <div class="password-wrapper">
+                            <input type="password" name="password" class="login-password-input" id="login-password">
+                            <img src="../images/eye.svg" class="eye">
+                        </div>
                     </div>
                     <div class="stay-row">
                         <input type="checkbox" name="stay-signed-in" id="stay-signed-in">
-                        <p class="normal stay">
+                        <label class="normal stay">
                             Stay signed in for a week
-                        </p>
+                        </label>
                     </div>
                     <button class="continue-btn">
                         Continue
@@ -45,12 +57,13 @@
                 </div>
             </div>
         </div>
-        <footer class="footer">
+        <footer class="login-footer">
             <p>© Growth99</p>
             &middot;
             <p>Contact</p>
             &middot;
             <p>Privacy & terms</p>
+            <p class="normal text-center no-account">Don’t have an account?<a href="#" class="link"> Sign up</a>
         </footer>
     </main>
 </body>
