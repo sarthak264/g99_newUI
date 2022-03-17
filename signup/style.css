@@ -87,6 +87,9 @@ p.login-label.forgot {
   align-items: center;
   justify-content: center;
 }
+.center-content {
+  padding-top: 32px;
+}
 .center-content .logo {
   margin-bottom: 34px;
 }
@@ -101,21 +104,6 @@ p.login-label.forgot {
   box-shadow: 0px 15px 35px 0px #3c425714, 0px 5px 15px 0px #0000001f;
   border-radius: 4px;
   z-index: 99;
-}
-.password-wrapper {
-  position: relative;
-}
-.password-wrapper .eye {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-125%);
-  right: 1rem;
-  cursor: pointer;
-}
-.password-row {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 .stay-row {
   display: flex;
@@ -157,6 +145,15 @@ p.login-label.forgot {
 .logo-row .login-title {
   display: none;
 }
+.logo-row {
+  position: absolute;
+  top: 52px;
+  left: 75px;
+  padding: 0 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 @media screen and (max-width: 480px) {
   .login-footer {
     justify-content: center;
@@ -170,19 +167,17 @@ p.login-label.forgot {
   .login-footer .no-account {
     display: inline-block;
   }
+  .center-content {
+    padding-top: 80px;
+  }
   .main-box {
     width: auto;
     padding: 46px 25px;
     margin: 0 38px;
   }
   .logo-row {
-    position: absolute;
-    top: 25px;
     width: 100%;
-    padding: 0 30px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    top: 25px;
   }
   .center-content .logo {
     width: 100px;
